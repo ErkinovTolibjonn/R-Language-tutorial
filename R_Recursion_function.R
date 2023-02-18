@@ -4,6 +4,7 @@ recursion_func <- function(n){
         print(result)
     }else{
         result <- 0
+        return(result)
     }
 }
 recursion_func(10)
